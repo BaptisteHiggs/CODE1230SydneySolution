@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white_edit.css">
+		<link rel="stylesheet" href="extrastyles.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+
+
+
+
+
+
+
+
+
+
+<section>
+	<br><br><br><br>
+	<h1>Water Towers</h1><br><br><br><br>
+	<img src="images/spacebar.png">
+</section>
+<section data-background="images/ConceptSketchDiagramLayout.png">
+	Concept, sketches & diagrams, text explaining stuff.
+</section>
+<section data-background="images/RhinoRenderPrecedentLayout.png">
+	<!--
+		Create a layout with rhino renders on the side and precedents on the right.
+		Rhino renders should have their background photoshopped out.
+		Precedents should all be the same size square.
+		Precedents should possibly have text beneath them, but it should be photoshopped in.
+	-->
+	RhinoRenderPrecedentLayout.png
+</section>
+<section data-background="images/AnnotatedSectionLayout.png">
+	AnnotatedSectionLayout.png
+</section>
+<section data-background="images/RenderPositioningLayout.png">
+
+</section>
+<section>
+	<!--
+		MAPBOX GOES HERE! Not sure if integration into reveal.js is going to be possible though :/
+		Make the following things toggleable layers:
+			- Each of the different layouts (radio button? might be hard)
+			- Postcode data
+	-->
+	MAPBOX GOES HERE!
+</section>
+<section>
+	Possible end slide?
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

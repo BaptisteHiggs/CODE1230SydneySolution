@@ -1,0 +1,239 @@
+.Map {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+
+#Base {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	display: Block;
+}
+
+input {
+    background: #BBBBBB;
+    /* border: None; */
+    margin: 10;
+    padding: 6;
+    color: #FFFFFF;
+	font-family: 'Titillium', arial, serif;
+	font-size: 18px;
+}
+
+input:hover {
+	background-color: #999999;
+}
+
+@font-face {
+    font-family: 'Titillium';
+    src: url(TitilliumWeb-Regular.ttf) format("truetype");
+}
+
+h2 {
+	text-align: center;
+}
+
+#buttonConstruction {
+	top: 0px;
+}
+
+#buttonEdges {
+	top: 50px;
+}
+
+#buttonPaths {
+	top: 100px;
+}
+
+#buttonZone {
+	top: 550px;
+}
+
+#buttonBikes {
+	top: 150px;
+}
+
+#buttonBuses {
+	top: 250px;
+}
+
+#buttonStalls {
+	top: 500px;
+}
+
+#buttonTrees {
+	top: 450px;
+}
+
+#buttonStanding {
+	top: 200px;
+}
+
+#buttonAmenities {
+	top: 400px;
+}
+
+#buttonTopography {
+	top: 300px;
+}
+
+#buttonLightRail {
+	top: 350px;
+}
+
+#buttonDesign {
+	top: 600px;
+}
+
+#Base {
+	z-index: 10;
+}
+
+#Construction {
+	z-index: 20;
+}
+
+#Edges {
+	z-index: 30;
+}
+
+#Paths {
+	z-index: 40;
+}
+
+#Zone {
+	z-index: 15;
+}
+
+#Bikes {
+	z-index: 60;
+}
+
+#Buses {
+	z-index: 70;
+}
+
+#Stalls {
+	z-index: 80;
+}
+
+#Trees {
+	z-index: 90;
+}
+
+#Standing {
+	z-index: 100;
+}
+
+#Amenities {
+	z-index: 110;
+}
+
+#Topography {
+	z-index: 18;
+}
+
+#LightRail {
+	z-index: 120;
+}
+
+#Design {
+	z-index: 130;
+}
+
+input {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 200;
+}
+
+h1 {
+	font-family: 'Titillium', arial, serif;
+	font-size: 150%;
+}	
+
+p {
+	text-align: center;
+}
+
+p.paragraph {
+	text-align: justify;
+	line-height: 1.4;
+	margin-left: 15%;
+}
+
+.menu {
+	float:right;
+	display:block;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	background-color: #FFFFFF;
+	position: fixed;
+	color: #FFFFFF;
+	right: 0px;
+	z-index: 1000;
+	font-family: 'Titillium', arial, serif;
+	font-size: 18px;
+}
+
+.menu a {
+	float:left;
+	display:block;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #333333;
+}
+
+.menu a:hover {
+	background-color: #001f3f;
+	color: #DDDDDD;
+}
+
+.unswnetwork {
+	height: 90%;
+}
+
+centreDiv  {
+	width: 50%;
+	float: left;
+	margin-left: 25%;
+}
+
+.float-right-area {
+	width: 30%;
+	float: left;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+body {
+	font-family: 'Titillium', arial, serif;
+}
+
+body.analysis {
+	background-color: #888888;
+	color: #FFFFFF;
+}
+
+ul {
+	font-family: 'Titillium', arial, serif;
+	font-size: 12px;
+}
+
+#outlinemap {
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
